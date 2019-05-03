@@ -10,6 +10,9 @@
         "gatsby-source-ghost",
         "gatsby-plugin-advanced-sitemap"
     ],
+    "ignorePaths": [
+      "plugins/gatsby-plugin-ghost-manifest/package.json"
+    ],
     "packageRules": [
       {
         "packagePatterns": ["^eslint"],
