@@ -11,7 +11,7 @@
         "gatsby-plugin-advanced-sitemap"
     ],
     "ignorePaths": [
-      "plugins/gatsby-plugin-ghost-manifest/package.json"
+      "plugins/gatsby-plugin-ghost-manifest"
     ],
     "packageRules": [
       {
