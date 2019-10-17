@@ -4,7 +4,7 @@
 
 Using Gastby Starter Ghost - <https://github.com/TryGhost/gatsby-starter-ghost>
 
-Just My Status Blog 😃
+Blog for Tamil Status and Kavithai 😃
 
 ## Features
 

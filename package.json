@@ -1,19 +1,20 @@
 {
-  "name": "gatsby-starter-ghost",
-  "description": "A starter template to build lightning fast websites with Ghost and Gatsby",
-  "version": "1.0.0",
+  "name": "tamil-status",
+  "description": "Tamil SMS, Kavithai and Quotes.",
+  "version": "0.0.1",
   "license": "MIT",
-  "author": "Ghost Foundation",
-  "homepage": "https://docs.ghost.org/api/gatsby/",
+  "author": "Santhosh Veer",
+  "private": true,
+  "homepage": "https://github.com/mskian/tamil-status/#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tryghost/gatsby-starter-ghost.git"
+    "url": "git+https://github.com/mskian/tamil-status.git"
   },
   "engines": {
     "node": ">= 8.9.0"
   },
   "bugs": {
-    "url": "https://github.com/tryghost/gatsby-starter-ghost/issues"
+    "url": "https://github.com/mskian/tamil-status/issues"
   },
   "keywords": [
     "gatsby",
