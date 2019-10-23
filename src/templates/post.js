@@ -16,33 +16,33 @@ const Post = ({ data, location }) => {
     const post = data.ghostPost
 
     return (
-            <>
-                <MetaData
-                    data={data}
-                    location={location}
-                    type="article"
-                />
-                <Helmet>
-                    <style type="text/css">{`${post.codeinjection_styles}`}</style>
-                </Helmet>
-                <Layout>
-                    <div className="container">
-                        <article className="content">
-                            <section className="post-full-content">
-                                <h1 className="content-title">{post.title}</h1>
-                                <time className="post-meta" dateTime={post.updated_at_zone}>{post.updated_at_pretty}</time>
-                                <br />
-                                <br />
-                                {/* The main post content */ }
-                                <section
-                                    className="content-body load-external-scripts"
-                                    dangerouslySetInnerHTML={{ __html: post.html }}
-                                />
-                            </section>
-                        </article>
-                    </div>
-                </Layout>
-            </>
+        <>
+            <MetaData
+                data={data}
+                location={location}
+                type="article"
+            />
+            <Helmet>
+                <style type="text/css">{`${post.codeinjection_styles}`}</style>
+            </Helmet>
+            <Layout>
+                <div className="container">
+                    <article className="content">
+                        <section className="post-full-content">
+                            <h1 className="content-title">{post.title}</h1>
+                            <time className="post-meta" dateTime={post.updated_at_zone}>{post.updated_at_pretty}</time>
+                            <br />
+                            <br />
+                            {/* The main post content */ }
+                            <section
+                                className="content-body load-external-scripts"
+                                dangerouslySetInnerHTML={{ __html: post.html }}
+                            />
+                        </section>
+                    </article>
+                </div>
+            </Layout>
+        </>
     )
 }
 
