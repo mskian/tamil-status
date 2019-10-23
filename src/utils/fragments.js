@@ -143,6 +143,7 @@ export const ghostPageFields = graphql`
         created_at_pretty: created_at(formatString: "DD MMMM, YYYY")
         published_at_pretty: published_at(formatString: "DD MMMM, YYYY")
         updated_at_pretty: updated_at(formatString: "DD MMMM, YYYY")
+        updated_at_zone: updated_at(formatString: "YYYY-MM-DD")
 
         # Dates unformatted
         created_at

@@ -30,7 +30,7 @@ const Post = ({ data, location }) => {
                         <article className="content">
                             <section className="post-full-content">
                                 <h1 className="content-title">{post.title}</h1>
-                                <time className="post-meta" dateTime={post.updated_at}>{post.updated_at_pretty}</time>
+                                <time className="post-meta" dateTime={post.updated_at_zone}>{post.updated_at_pretty}</time>
                                 <br />
                                 <br />
                                 {/* The main post content */ }
@@ -52,6 +52,8 @@ Post.propTypes = {
             codeinjection_styles: PropTypes.object,
             title: PropTypes.string.isRequired,
             html: PropTypes.string.isRequired,
+            updated_at_pretty: PropTypes.string,
+            updated_at_zone: PropTypes.string,
             feature_image: PropTypes.string,
         }).isRequired,
     }).isRequired,
